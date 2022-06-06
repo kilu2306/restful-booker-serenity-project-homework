@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.herokuapp.bookinfo.BookCurdTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 21.123 sec <<< FAILURE! - in com.herokuapp.bookinfo.BookCurdTest
+test002(com.herokuapp.bookinfo.BookCurdTest)  Time elapsed: 6.643 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.herokuapp.bookinfo.BookCurdTest.test002(BookCurdTest.java:45)
+
