@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="End to End testing for booking" skipped="0" tests="4" time="5.38" timestamp="2022-06-20T12:04:03.087+01:00[Europe/London]"><testcase name="User should be able to creat booking"/><testcase name="User should be able to get single booking by Id"/><testcase name="User should be able to update booking by given id"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.herokuapp.cucumber.bookingcurdsetdef.userShouldBeAbleToUpdateBookingSuccefully(bookingcurdsetdef.java:80)&#13;
+✽.Then user should be able to update booking succefully(booking.feature:16)&#13;
+</system-err></testcase><testcase name="User should be able to delete data succefully"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.herokuapp.cucumber.bookingcurdsetdef.bookingShouldBeSuccesffulyDeleted(bookingcurdsetdef.java:92)&#13;
+✽.Then booking should be succesffuly deleted(booking.feature:20)&#13;
+</system-err></testcase></testsuite>
